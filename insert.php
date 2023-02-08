@@ -14,7 +14,7 @@ li {listt-style: none;}
 <li>Employee FirstName:</li><li><input type="text" name="fname" /></li>
 <li>Employee LastName:</li><li><input type="text" name="lname" /></li>
 <li>Employee Gender:</li><li><input type="text" name="gender" /></li>
-<li>Employee Age:</li><li><input type="text" name="age:wq" /></li>
+<li>Employee Age:</li><li><input type="text" name="age" /></li>
 <li>Employee Location:</li><li><input type="text" name="location" /></li>
 <li><input type="submit" /></li>
 </form>
