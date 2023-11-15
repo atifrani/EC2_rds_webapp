@@ -1,7 +1,7 @@
-# rds_webapp
+# rds_webapp : Cours AWS ESME
 
 
-# Projet de déploiement d'une page web sur AWS.
+## Projet de déploiement d'une page web sur AWS.
 
 ## 1. Créez une instance EC2 (Utiliser l'offre gratuite de AWS)
 Il est important d'appliquer les recommandations sécurité réseau vu en cours.
