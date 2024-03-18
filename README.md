@@ -26,8 +26,7 @@ Il est important d'appliquer les recommandations sécurité réseau vu en cours.
 Une fois connecter à la base de données exécutez le script sql employees.sql.
 
 ## 6. Modifiez le fichier de configuration base de données:
-Retrounez sur la machine EC2 et editez le fichier de configuration app/db-config.php
-Mettez à jour les informations pour autoriser l'application à se connecter à la base de données.
+Retrounez sur la machine EC2 et editez les fichiers insert.php et find.php et mettez à jour les informations pour autoriser l'application à se connecter à la base de données RDS (Host, user, Password, Port, Database name).
 
 ## 7. Copiez le code de votre application.
 Sur la machine EC2, copiez le code de votre application (Le répertoire app) dans le répertoire /var/www/html.
