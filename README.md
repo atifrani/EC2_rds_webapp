@@ -5,9 +5,10 @@
 
 ## 1. Créez une instance EC2 (Utiliser l'offre gratuite de AWS)
 Il est important d'appliquer les recommandations sécurité réseau vu en cours.
- - Network ACL.
+ - Machine eligible à l'offre gratuite
+ - Region eu-west-1
  - Security Group.
- - Authentification en utilisant une clé d'authentification.
+ - Authentification en utilisant une clé d'authentification (Keypair).
 
 ## 2. Installez les composant suivants sur la machine EC2:
  - httpd/Apache2
@@ -18,7 +19,8 @@ Il est important d'appliquer les recommandations sécurité réseau vu en cours.
 
 ## 4. Créez une base de données RDS postgresql  (Utiliser l'offre gratuite de AWS):
 Il est important d'appliquer les recommandations sécurité réseau vu en cours.
- - Network ACL.
+ - Base de données postgresql eligible à l'offre gratuite 
+ - Region eu-west-1
  - Security Group.
  - Authentification en utilisant username, password
 
